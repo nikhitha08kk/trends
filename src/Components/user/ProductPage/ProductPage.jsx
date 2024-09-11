@@ -31,8 +31,11 @@ const ProductPage = () => {
       
       {products.map((product) => (
         <ProductCard key={product.id} product={product} />
+
       ))}
+     
     </Grid2>
+    <div>next</div>
     </>
   
   
